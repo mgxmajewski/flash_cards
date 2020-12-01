@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds pug with index template">
-      <change afterPath="$PROJECT_DIR$/views/card.pug" afterDir="false" />
+    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds card view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
       <updated>1606778010412</updated>
       <workItem from="1606778011556" duration="2871000" />
       <workItem from="1606782341484" duration="2148000" />
-      <workItem from="1606850946375" duration="4782000" />
+      <workItem from="1606850946375" duration="5471000" />
     </task>
     <task id="LOCAL-00001" summary="Creates server and route in express">
       <created>1606780247271</created>
@@ -78,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606858688650</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adds card view">
+      <created>1606859349774</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606859349774</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +105,7 @@
     <MESSAGE value="Creates server and route in express" />
     <MESSAGE value="Adds second test route&#10;also sets up nodemon" />
     <MESSAGE value="Adds pug with index template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds pug with index template" />
+    <MESSAGE value="Adds card view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds card view" />
   </component>
 </project>
