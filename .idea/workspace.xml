@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Creates server and route in express">
+    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds second test route&#10;also sets up nodemon">
+      <change afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +15,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/views/index.pug" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1l1wfizLNF93Kh4bY1ygfnhCi2u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,6 +33,7 @@
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -49,7 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606778010412</updated>
       <workItem from="1606778011556" duration="2871000" />
-      <workItem from="1606782341484" duration="1761000" />
+      <workItem from="1606782341484" duration="2148000" />
+      <workItem from="1606850946375" duration="3841000" />
     </task>
     <task id="LOCAL-00001" summary="Creates server and route in express">
       <created>1606780247271</created>
@@ -58,14 +65,34 @@
       <option name="project" value="LOCAL" />
       <updated>1606780247271</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adds second test route&#10;also sets up nodemon">
+      <created>1606784219824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606784219824</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creates server and route in express" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creates server and route in express" />
+    <MESSAGE value="Adds second test route&#10;also sets up nodemon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds second test route&#10;also sets up nodemon" />
   </component>
 </project>
