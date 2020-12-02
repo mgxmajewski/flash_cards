@@ -17,8 +17,12 @@ app.get('/', (req, res)=> {
     res.render('index');
 });
 
+app.get('/hello', (req, res)=> {
+    res.render('hello');
+});
+
 app.get('/cards', (req, res)=> {
-    res.render('card', {prompt: "Who is buried in Grant's tomb?", colors });
+    res.render('card', {prompt: "Who is buried in Grant's tomb?", colors  });
 });
 
 app.listen(3000, () => {
