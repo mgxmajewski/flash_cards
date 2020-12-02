@@ -1,5 +1,8 @@
 extends layout
 
 block content
-    section#content
-        h2 hello, student!
+    h2 Hello, student!
+    form(action='/hello', method='post')
+        label Please enter your name:
+            input(type='text', name='username')
+        button(type='submit') Submit
