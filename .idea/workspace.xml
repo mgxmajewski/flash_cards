@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds hello route">
+    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds bodyParser&#10;removes colors array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/hello.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/hello.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +60,7 @@
       <workItem from="1606778011556" duration="2871000" />
       <workItem from="1606782341484" duration="2148000" />
       <workItem from="1606850946375" duration="9953000" />
-      <workItem from="1606938861202" duration="2561000" />
+      <workItem from="1606938861202" duration="3857000" />
     </task>
     <task id="LOCAL-00001" summary="Creates server and route in express">
       <created>1606780247271</created>
@@ -141,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606939915153</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adds bodyParser&#10;removes colors array">
+      <created>1606942390934</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606942390934</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +176,7 @@
     <MESSAGE value="Adds includes for header and footer" />
     <MESSAGE value="Refactor card route" />
     <MESSAGE value="Adds hello route" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds hello route" />
+    <MESSAGE value="Adds bodyParser&#10;removes colors array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds bodyParser&#10;removes colors array" />
   </component>
 </project>
