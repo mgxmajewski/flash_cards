@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds response to submit&#10;displays user name">
+    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds cookie method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/hello.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/hello.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
       <workItem from="1606778011556" duration="2871000" />
       <workItem from="1606782341484" duration="2148000" />
       <workItem from="1606850946375" duration="9953000" />
-      <workItem from="1606938861202" duration="4772000" />
+      <workItem from="1606938861202" duration="5884000" />
     </task>
     <task id="LOCAL-00001" summary="Creates server and route in express">
       <created>1606780247271</created>
@@ -151,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606943631981</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adds cookie method">
+      <created>1606945876175</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606945876175</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +194,7 @@
     <MESSAGE value="Adds hello route" />
     <MESSAGE value="Adds bodyParser&#10;removes colors array" />
     <MESSAGE value="Adds response to submit&#10;displays user name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds response to submit&#10;displays user name" />
+    <MESSAGE value="Adds cookie method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds cookie method" />
   </component>
 </project>
