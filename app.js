@@ -8,6 +8,20 @@ app.use(bodyParser.urlencoded({ extended: false}));
 app.use(cookieParser());
 app.set('view engine', 'pug');
 
+app.use((req,res, next) =>{
+    console.log("one");
+    next();
+}, (req,res, next) =>{
+    console.log("one and a half");
+    next();
+});
+
+app.use((req,res, next) =>{
+    console.log("two");
+    next();
+});
+
+
 app.get('/', (req, res)=> {
     const name = req.cookies.username;
     if (name) {
