@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds Goodbye button&#10;to clear cookies">
+    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds middleware example">
+      <change afterPath="$PROJECT_DIR$/views/error.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
@@ -60,7 +61,7 @@
       <workItem from="1606782341484" duration="2148000" />
       <workItem from="1606850946375" duration="9953000" />
       <workItem from="1606938861202" duration="10521000" />
-      <workItem from="1607031464082" duration="335000" />
+      <workItem from="1607031464082" duration="1873000" />
     </task>
     <task id="LOCAL-00001" summary="Creates server and route in express">
       <created>1606780247271</created>
@@ -181,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606950505241</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Adds middleware example">
+      <created>1607031880911</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607031880911</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +224,7 @@
     <MESSAGE value="Adds cookie method" />
     <MESSAGE value="Adds redirect" />
     <MESSAGE value="Adds Goodbye button&#10;to clear cookies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds Goodbye button&#10;to clear cookies" />
+    <MESSAGE value="Adds middleware example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds middleware example" />
   </component>
 </project>

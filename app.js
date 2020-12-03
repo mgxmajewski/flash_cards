@@ -9,15 +9,14 @@ app.use(cookieParser());
 app.set('view engine', 'pug');
 
 app.use((req,res, next) =>{
-    console.log("one");
-    next();
-}, (req,res, next) =>{
-    console.log("one and a half");
-    next();
+    console.log("Hello");
+    const err = new Error('Oh noes!');
+    err.status = 500;
+    next(err);
 });
 
 app.use((req,res, next) =>{
-    console.log("two");
+    console.log(req.message);
     next();
 });
 
@@ -54,6 +53,13 @@ app.post('/goodbye', (req, res)=> {
     res.clearCookie('username');
     res.redirect('/hello');
 });
+
+app.use((err, rew, res, next)=> {
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error', err);
+});
+
 
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000');
