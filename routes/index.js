@@ -10,9 +10,7 @@ router.get('/', (req, res)=> {
     }
 });
 
-router.get('/cards', (req, res)=> {
-    res.render('card', {prompt: "Who is buried in Grant's tomb?"});
-});
+
 
 router.get('/hello', (req, res)=> {
     const name =  req.cookies.username;
