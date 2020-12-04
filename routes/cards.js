@@ -6,7 +6,7 @@ const {cards} = data;
 router.get('/', (req, res) =>{
     const numberOfCards = cards.length;
     const flashcardId = Math.floor( Math.random() * numberOfCards);
-    res.redirect( `/cards/${flashcardId}?side=question`)
+    res.redirect( `/cards/${flashcardId}`)
 });
 
 
