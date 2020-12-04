@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds flat data file&#10;in JSON">
+    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds 'id' params to cards route">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/cards.js" afterDir="false" />
     </list>
@@ -62,6 +62,7 @@
       <workItem from="1606850946375" duration="9953000" />
       <workItem from="1606938861202" duration="10521000" />
       <workItem from="1607031464082" duration="5260000" />
+      <workItem from="1607040621783" duration="877000" />
     </task>
     <task id="LOCAL-00001" summary="Creates server and route in express">
       <created>1606780247271</created>
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607035805854</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Adds 'id' params to cards route">
+      <created>1607040890117</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1607040890117</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +265,7 @@
     <MESSAGE value="Adds router" />
     <MESSAGE value="Adds cords rout in router" />
     <MESSAGE value="Adds flat data file&#10;in JSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds flat data file&#10;in JSON" />
+    <MESSAGE value="Adds 'id' params to cards route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds 'id' params to cards route" />
   </component>
 </project>
