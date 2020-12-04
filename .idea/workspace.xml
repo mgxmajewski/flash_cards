@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds variables to cards.js&#10;to connect cards with JSON">
+    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds feature to hide hint on answer">
+      <change beforePath="$PROJECT_DIR$/.idea/flash_cards.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flashCards.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/card.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/card.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,8 @@
       <workItem from="1606850946375" duration="9953000" />
       <workItem from="1606938861202" duration="10521000" />
       <workItem from="1607031464082" duration="5260000" />
-      <workItem from="1607040621783" duration="1751000" />
+      <workItem from="1607040621783" duration="2613000" />
+      <workItem from="1607118506164" duration="735000" />
     </task>
     <task id="LOCAL-00001" summary="Creates server and route in express">
       <created>1606780247271</created>
@@ -232,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607041618702</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Adds feature to hide hint on answer">
+      <created>1607042388812</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1607042388812</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +285,7 @@
     <MESSAGE value="Adds flat data file&#10;in JSON" />
     <MESSAGE value="Adds 'id' params to cards route" />
     <MESSAGE value="Adds variables to cards.js&#10;to connect cards with JSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds variables to cards.js&#10;to connect cards with JSON" />
+    <MESSAGE value="Adds feature to hide hint on answer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds feature to hide hint on answer" />
   </component>
 </project>
