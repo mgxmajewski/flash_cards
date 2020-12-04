@@ -18,6 +18,10 @@ router.get('/:id', (req, res)=> {
 
     const templateData = {id, text};
 
+    if (!side) {
+        res.redirect( `/cards/${id}?side=question`)
+    }
+
     if (side === 'question') {
         templateData.hint = hint;
         templateData.sideToShow = 'answer';
