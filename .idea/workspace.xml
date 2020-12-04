@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds redirect to random card">
+    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds next card link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/card.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/card.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Micha\Documents\GitHub\TeamTreehouse_Track\flash_cards\public" />
+      <recent name="C:\Users\Micha\Documents\GitHub\TeamTreehouse_Track\flash_cards" />
       <recent name="C:\Users\Micha\Documents\GitHub\TeamTreehouse_Track\flash_cards\" />
       <recent name="C:\Users\Micha\Documents\GitHub\TeamTreehouse_Track\flash_cards\views" />
     </key>
@@ -63,7 +69,7 @@
       <workItem from="1606938861202" duration="10521000" />
       <workItem from="1607031464082" duration="5260000" />
       <workItem from="1607040621783" duration="2613000" />
-      <workItem from="1607118506164" duration="1957000" />
+      <workItem from="1607118506164" duration="4694000" />
     </task>
     <task id="LOCAL-00001" summary="Creates server and route in express">
       <created>1606780247271</created>
@@ -254,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607119882398</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Adds redirect in case of no 'side'">
+      <created>1607120479124</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1607120479124</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Adds next card link">
+      <created>1607120729315</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1607120729315</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,8 +293,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adds second test route&#10;also sets up nodemon" />
-    <MESSAGE value="Adds pug with index template" />
     <MESSAGE value="Adds card view" />
     <MESSAGE value="Injects variables into card view" />
     <MESSAGE value="Adds if/else logic to pug" />
@@ -298,6 +316,8 @@
     <MESSAGE value="Adds feature to hide hint on answer" />
     <MESSAGE value="Adds feature to flip card&#10;change between answer and question" />
     <MESSAGE value="Adds redirect to random card" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds redirect to random card" />
+    <MESSAGE value="Adds redirect in case of no 'side'" />
+    <MESSAGE value="Adds next card link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds next card link" />
   </component>
 </project>
