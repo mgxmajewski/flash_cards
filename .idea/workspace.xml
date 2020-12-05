@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds style.css and injects it into layout">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/card-back.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/card-front.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/content-header-answer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/content-header-question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/desk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/flip.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/tear.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds package 'Design Files'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +35,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Micha\Documents\GitHub\TeamTreehouse_Track\flash_cards\public" />
+      <recent name="C:\Users\Micha\Documents\GitHub\TeamTreehouse_Track\flash_cards\public\img" />
       <recent name="C:\Users\Micha\Documents\GitHub\TeamTreehouse_Track\flash_cards" />
       <recent name="C:\Users\Micha\Documents\GitHub\TeamTreehouse_Track\flash_cards\" />
       <recent name="C:\Users\Micha\Documents\GitHub\TeamTreehouse_Track\flash_cards\views" />
@@ -84,7 +68,7 @@
       <workItem from="1607118506164" duration="5098000" />
       <workItem from="1607123626811" duration="8000" />
       <workItem from="1607124285731" duration="67000" />
-      <workItem from="1607190789015" duration="2326000" />
+      <workItem from="1607190789015" duration="3436000" />
     </task>
     <task id="LOCAL-00001" summary="Creates server and route in express">
       <created>1606780247271</created>
@@ -296,11 +280,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607123504462</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Adds package 'Design Files'">
+      <created>1607196010778</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1607196010778</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -315,7 +316,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Injects variables into card view" />
     <MESSAGE value="Adds if/else logic to pug" />
     <MESSAGE value="Adds loop into pug to display each color" />
     <MESSAGE value="Adds layout.pug" />
@@ -340,6 +340,7 @@
     <MESSAGE value="Adds redirect in case of no 'side'" />
     <MESSAGE value="Adds next card link" />
     <MESSAGE value="Adds style.css and injects it into layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds style.css and injects it into layout" />
+    <MESSAGE value="Adds package 'Design Files'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds package 'Design Files'" />
   </component>
 </project>
