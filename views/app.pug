@@ -2,7 +2,7 @@ extends layout
 
 block main
     section.namecard
-        .namecard-hello
+        .namecard-login
             if name
                 p.namecard-greeting Welcome, #{name}!
                 form.namecard-exit(action='/goodbye', method='POST')
@@ -10,5 +10,5 @@ block main
                         img(src='/img/close.svg')
             else
                 p.namecard-greeting Hello, student!
-            block intro
-        block card
+        block intro
+    block card
