@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Updates card.pug to fit with app.pug">
+    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Fixes typo in hint hide">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/card.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/card.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,7 @@
       <workItem from="1607198177862" duration="1270000" />
       <workItem from="1607212818265" duration="2791000" />
       <workItem from="1607215634494" duration="248000" />
-      <workItem from="1607215910110" duration="2518000" />
+      <workItem from="1607215910110" duration="3176000" />
     </task>
     <task id="LOCAL-00001" summary="Creates server and route in express">
       <created>1606780247271</created>
@@ -328,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607217813363</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Fixes typos in img links">
+      <created>1607218746184</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1607218746184</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,9 +362,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adds hello route" />
-    <MESSAGE value="Adds bodyParser&#10;removes colors array" />
-    <MESSAGE value="Adds response to submit&#10;displays user name" />
     <MESSAGE value="Adds cookie method" />
     <MESSAGE value="Adds redirect" />
     <MESSAGE value="Adds Goodbye button&#10;to clear cookies" />
@@ -382,7 +384,10 @@
     <MESSAGE value="Adds app.pug and extends to hello.pug&#10;Connects with css" />
     <MESSAGE value="Updates index.pug to fit with app.pug" />
     <MESSAGE value="Updates card.pug to fit with app.pug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates card.pug to fit with app.pug" />
+    <MESSAGE value="Fixes typos in img links" />
+    <MESSAGE value="Adds hint hide feature" />
+    <MESSAGE value="Fixes typo in hint hide" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes typo in hint hide" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
