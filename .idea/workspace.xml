@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="App.js cleanup" />
+    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Adds Error page design">
+      <change afterPath="$PROJECT_DIR$/views/app.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/error.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/error.pug" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Pug File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,7 +39,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/S6V3_Challenge_Complete/views/index.pug" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.TypeScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/S6V3_Challenge_Complete/views/index.pug" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -66,7 +77,9 @@
       <workItem from="1607040621783" duration="2613000" />
       <workItem from="1607118506164" duration="4694000" />
       <workItem from="1607198177862" duration="1270000" />
-      <workItem from="1607212818265" duration="1914000" />
+      <workItem from="1607212818265" duration="2791000" />
+      <workItem from="1607215634494" duration="248000" />
+      <workItem from="1607215910110" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="Creates server and route in express">
       <created>1606780247271</created>
@@ -285,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607214371156</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Deletes footer">
+      <created>1607214860099</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607214860099</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +334,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adds loop into pug to display each color" />
     <MESSAGE value="Adds layout.pug" />
     <MESSAGE value="Adds includes for header and footer" />
     <MESSAGE value="Refactor card route" />
@@ -339,6 +358,11 @@
     <MESSAGE value="Removes hmtl files from public" />
     <MESSAGE value="Adds logo from static assets" />
     <MESSAGE value="App.js cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="App.js cleanup" />
+    <MESSAGE value="Deletes footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deletes footer" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
