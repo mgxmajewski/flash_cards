@@ -1,8 +1,8 @@
 doctype html
-html(lang="en")
+html(lang='en')
     head
         title Flash Cards
-        link(rel='stylesheet', href='/static/stylesheets/style.css')
+        link(rel='stylesheet' href='stylesheets/style.css')
     body
         include includes/header
         if (name)
@@ -11,3 +11,9 @@ html(lang="en")
                 button(type='submit') Goodbye
         block content
         include includes/footer
+
+
+
+                header
+                    img(src='img/logo.png')
+                    p An app to help you study
