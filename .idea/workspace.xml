@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Updates index.pug to fit with app.pug">
+    <list default="true" id="7e529a79-26c7-4619-a6af-f35e4ba76465" name="Default Changelist" comment="Updates card.pug to fit with app.pug">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/card.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/card.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +38,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/S6V3_Challenge_Complete/views/index.pug" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/S6V3_Challenge_Complete/routes/cards.js" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/S6V3_Challenge_Complete/views/index.pug" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/S6V3_Challenge_Complete/routes/cards.js" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -77,7 +81,7 @@
       <workItem from="1607198177862" duration="1270000" />
       <workItem from="1607212818265" duration="2791000" />
       <workItem from="1607215634494" duration="248000" />
-      <workItem from="1607215910110" duration="1699000" />
+      <workItem from="1607215910110" duration="2518000" />
     </task>
     <task id="LOCAL-00001" summary="Creates server and route in express">
       <created>1606780247271</created>
@@ -317,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607217284239</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Updates card.pug to fit with app.pug">
+      <created>1607217813363</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1607217813363</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +357,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactor card route" />
     <MESSAGE value="Adds hello route" />
     <MESSAGE value="Adds bodyParser&#10;removes colors array" />
     <MESSAGE value="Adds response to submit&#10;displays user name" />
@@ -371,7 +381,8 @@
     <MESSAGE value="Deletes footer" />
     <MESSAGE value="Adds app.pug and extends to hello.pug&#10;Connects with css" />
     <MESSAGE value="Updates index.pug to fit with app.pug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates index.pug to fit with app.pug" />
+    <MESSAGE value="Updates card.pug to fit with app.pug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates card.pug to fit with app.pug" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

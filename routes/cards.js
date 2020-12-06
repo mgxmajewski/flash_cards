@@ -9,7 +9,6 @@ router.get('/', (req, res) =>{
     res.redirect( `/cards/${flashcardId}`)
 });
 
-
 router.get('/:id', (req, res)=> {
     const {side} = req.query;
     const {id} = req.params;
@@ -21,19 +20,18 @@ router.get('/:id', (req, res)=> {
     const text = cards[id][side];
     const {hint} = cards[id];
 
-    const templateData = {id, text, name};
+    const templateData = {id, text, name, side};
 
     if (side === 'question') {
         templateData.hint = hint;
         templateData.sideToShow = 'answer';
-        templateData.sideToShow.sideToShowDisplay = 'Answer';
+        templateData.sideToShowDisplay = 'Answer';
     } else if (side === 'answer') {
         templateData.sideToShow = 'question';
-        templateData.sideToShow.sideToShowDisplay = 'Question';
+        templateData.sideToShowDisplay = 'Question';
     }
 
     res.render('card', templateData);
-
 });
 
 module.exports = router;

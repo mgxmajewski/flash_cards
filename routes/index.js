@@ -10,9 +10,7 @@ router.get('/', (req, res)=> {
     }
 });
 
-
-
-router.get('/hello', (req, res)=> {
+router.get('/hello', (req, res) => {
     const name =  req.cookies.username;
     if (name) {
         res.redirect('/');
@@ -21,8 +19,7 @@ router.get('/hello', (req, res)=> {
     }
 });
 
-router.post('/hello', (req, res)=> {
-    //console.dir(req.body);
+router.post('/hello', (req, res) => {
     res.cookie('username', req.body.username);
     res.redirect('/');
 });
